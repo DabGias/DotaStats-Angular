@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --title-font: "Noto Serif", serif;
+    --text-font: "Noto Sans", sans-serif;
+    --str-color: red;
+    --agi-color: #00aa00;
+    --int-color: #5bc3ff;
+    --all-color: #FEFEFE;
+    --background-color: #121212;
+    --title-color: #df8634;
+    --text-color: #EFEFEF;
+    --font-weight: 600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", serif;
+    font-weight: var(--font-weight);
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    min-height: 100vh;
+}

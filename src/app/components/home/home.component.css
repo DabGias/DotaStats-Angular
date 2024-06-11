@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h1 {
+    font-family: var(--title-font);
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-indent: 50px;
+}
+
+.intro {
+    background-color: #303030;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}

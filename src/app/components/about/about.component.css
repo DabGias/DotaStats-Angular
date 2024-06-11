@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: var(--title-font);
+}
+
+h1 span {
+    color: var(--title-color);
+}

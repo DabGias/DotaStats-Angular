@@ -1,0 +1,14 @@
+<main>
+    @if (heroes !== undefined && heroes.length != 0) {
+        @for (hero of heroes; track hero) {
+            <div>
+                <app-hero
+                    [hero]="hero"
+                ></app-hero>
+            </div>
+        }
+    } @else {
+        <h2>Não há heróis disponíveis!</h2>
+    }
+
+</main>
